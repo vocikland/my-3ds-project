@@ -18,7 +18,7 @@ jobs:
         run: make
 
       - name: Upload Result
-        uses: actions/artifacts@v4
+        uses: actions/upload-artifact@v4
         with:
           name: my-finished-3ds-game
           path: |
